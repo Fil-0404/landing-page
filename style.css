@@ -93,8 +93,46 @@ body{
     margin: 0;
 }
 
-#row1,
-#row2{
+#container1{
     max-width:1200px;
     margin:0 auto;
+}
+
+#container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box{
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+#container2 h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.boxes p{
+    font-size: 18px;
+}
+
+.BoxText{
+    max-width: 150px;
+}
+
+#section2{
+    padding: 10px 100px 90px 100px;
 }
