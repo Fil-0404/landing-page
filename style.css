@@ -139,7 +139,7 @@ body{
 
 #section3{
     background-color: #E5E7EB;
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -163,4 +163,44 @@ body{
 
 #container3_1 span{
     font-weight: 900;
+}
+
+#containerInside{
+    height: 100px;
+    width: 800px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    gap: 50px;
+}
+
+#section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px 80px 100px;
+}
+
+#Line1{
+    color: #E5E7EB;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+#container span{
+    color: #E5E7EB;
+    font-size: 14px;
+}
+
+#containerInside button{
+    border-radius: 5px;
+    border-color: #E5E7EB;
+    color: #E5E7EB;
+    border: 2px solid;
+    background-color: #3882F6;
+    padding: 8px 30px;
+    font-weight: bold;
+    cursor: pointer;
 }
