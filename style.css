@@ -204,3 +204,14 @@ body{
     font-weight: bold;
     cursor: pointer;
 }
+
+#section5{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section5 p{
+    color: #E5E7EB;
+}
