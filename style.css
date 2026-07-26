@@ -134,5 +134,33 @@ body{
 }
 
 #section2{
-    padding: 10px 100px 90px 100px;
+    padding: 10px 100px 80px 100px;
+}
+
+#section3{
+    background-color: #E5E7EB;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section3 p{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#container3{
+    width:790px;
+}
+
+#container3_1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#container3_1 span{
+    font-weight: 900;
 }
